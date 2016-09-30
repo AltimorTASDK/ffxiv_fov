@@ -321,5 +321,17 @@ namespace ffxiv_fov
 		{
 			exitLoop = true;
 		}
+
+		private void useHorFov_CheckedChanged(object sender, EventArgs e)
+		{
+			if (ffxivFound)
+				UpdateFOV();
+		}
+
+		private void useVertFov_CheckedChanged(object sender, EventArgs e)
+		{
+			if (ffxivFound)
+				UpdateFOV();
+		}
 	}
 }

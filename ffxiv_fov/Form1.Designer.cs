@@ -67,6 +67,7 @@
 			this.useHorFov.TabStop = true;
 			this.useHorFov.Text = "Hor+";
 			this.useHorFov.UseVisualStyleBackColor = true;
+			this.useHorFov.CheckedChanged += new System.EventHandler(this.useHorFov_CheckedChanged);
 			// 
 			// useVertFov
 			// 
@@ -77,6 +78,7 @@
 			this.useVertFov.TabIndex = 10;
 			this.useVertFov.Text = "Vertical";
 			this.useVertFov.UseVisualStyleBackColor = true;
+			this.useVertFov.CheckedChanged += new System.EventHandler(this.useVertFov_CheckedChanged);
 			// 
 			// groupBox1
 			// 
